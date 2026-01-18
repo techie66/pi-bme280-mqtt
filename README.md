@@ -1,0 +1,1 @@
+This project uses a BME280 environmental sensor connected to a Raspberry Pi to read temperature, humidity, and pressure data. The measured values are published via the MQTT protocol, allowing them to be monitored by other devices or services on the network.
