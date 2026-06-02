@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -Iinclude -Wall -Wextra
-LIBS = -lwiringPi -lpaho-mqtt3c
+LIBS = -lwiringPi -lmosquitto
 TARGET = main
-SRC = src/main.c src/bme280.c src/mqtt_client_helper.c
+SRC = src/main.c src/bme280.c
 
 all: $(TARGET)
 
